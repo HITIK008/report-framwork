@@ -19,6 +19,7 @@ const HomePage = () => {
     getData();
   }, []);
 
+  //for search
   const handleSearch = () => {
     console.log("Searching for:", searchTerm);
   };
